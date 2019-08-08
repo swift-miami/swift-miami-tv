@@ -11,7 +11,7 @@ import AlamofireImage
 
 class MainViewController: UIViewController, VideoCollectionViewCellDelegate {
     
-    @IBOutlet weak var membersButton: SMButton!
+    @IBOutlet weak var membersButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -38,6 +38,7 @@ class MainViewController: UIViewController, VideoCollectionViewCellDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        prepareViews()
         prepareSegmentControl()
         prepareCollectionView()
         prepareFocusGuide()

@@ -10,7 +10,20 @@ import UIKit
 
 extension MainViewController {
     
+    func prepareViews() {
+        //Please note that the event required to track a button click on tvOS is .primaryActionTriggered NOT .touchUpInside
+        self.membersButton.addTarget(self, action: #selector(goToMembers), for: .primaryActionTriggered)
+    }
     
+    @objc func goToMembers() {
+        let members = MembersViewController(nibName: "membersView", bundle: nil)
+        let search = UISearchController(searchResultsController: members)
+        search.searchResultsUpdater = members
+        let searchContainer = UISearchContainerViewController(searchController: search)
+        self.present(searchContainer, animated: true) {
+            
+        }
+    }
     
     func prepareCollectionView() {
         // Registering Nib for UICOllectionView
