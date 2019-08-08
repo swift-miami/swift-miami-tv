@@ -34,6 +34,9 @@
 		57D3005222FBC19F00060593 /* loadingPhoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3005122FBC19F00060593 /* loadingPhoneView.xib */; };
 		57D3005422FC4A8400060593 /* videoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3005322FC4A8400060593 /* videoCell.xib */; };
 		57D3005622FC4ADA00060593 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3005522FC4ADA00060593 /* VideoTableViewCell.swift */; };
+		57D3005822FCB9F400060593 /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3005722FCB9F400060593 /* MembersViewController.swift */; };
+		57D3005C22FCBAA100060593 /* membersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3005B22FCBAA100060593 /* membersView.xib */; };
+		57D3005F22FCBB5200060593 /* SMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3005E22FCBB5200060593 /* SMButton.swift */; };
 		57D777E822FB6F9800994C1D /* mainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D777E722FB6F9800994C1D /* mainHelper.swift */; };
 		938445FE243B47098453C3F5 /* Pods_SwiftMiaTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD9B99B2B1372B02FF0C98F /* Pods_SwiftMiaTVOS.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +70,9 @@
 		57D3005122FBC19F00060593 /* loadingPhoneView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loadingPhoneView.xib; sourceTree = "<group>"; };
 		57D3005322FC4A8400060593 /* videoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = videoCell.xib; sourceTree = "<group>"; };
 		57D3005522FC4ADA00060593 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		57D3005722FCB9F400060593 /* MembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
+		57D3005B22FCBAA100060593 /* membersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = membersView.xib; sourceTree = "<group>"; };
+		57D3005E22FCBB5200060593 /* SMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMButton.swift; sourceTree = "<group>"; };
 		57D777E722FB6F9800994C1D /* mainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHelper.swift; sourceTree = "<group>"; };
 		6C57C0F614704B6E1215B97D /* Pods-SwiftMiaTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMiaTVOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS.release.xcconfig"; sourceTree = "<group>"; };
 		8D4BBC2E1F0C7C2E96754FBA /* Pods-SwiftMiaTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMiaTVOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +186,8 @@
 				57B23C6722F636AA002E80D0 /* MainViewController.swift */,
 				57C1D85122FA2C8F007957DB /* mainView.xib */,
 				57D777E722FB6F9800994C1D /* mainHelper.swift */,
+				57D3005D22FCBADE00060593 /* Member */,
+				57D3005E22FCBB5200060593 /* SMButton.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -193,6 +201,15 @@
 				57D3005522FC4ADA00060593 /* VideoTableViewCell.swift */,
 			);
 			path = index;
+			sourceTree = "<group>";
+		};
+		57D3005D22FCBADE00060593 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				57D3005722FCB9F400060593 /* MembersViewController.swift */,
+				57D3005B22FCBAA100060593 /* membersView.xib */,
+			);
+			path = Member;
 			sourceTree = "<group>";
 		};
 		86298D58E99FE78E7078EDEA /* Pods */ = {
@@ -315,6 +332,7 @@
 				57C1D85222FA2C8F007957DB /* mainView.xib in Resources */,
 				57B23C6D22F636AB002E80D0 /* Assets.xcassets in Resources */,
 				57C1D85522FA3486007957DB /* loadingView.xib in Resources */,
+				57D3005C22FCBAA100060593 /* membersView.xib in Resources */,
 				57B23C6B22F636AA002E80D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,8 +453,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D3005F22FCBB5200060593 /* SMButton.swift in Sources */,
 				57C1D85822FB15E0007957DB /* SMApi.swift in Sources */,
 				57C1D85022FA27A5007957DB /* LoadingViewController.swift in Sources */,
+				57D3005822FCB9F400060593 /* MembersViewController.swift in Sources */,
 				57B23C6822F636AA002E80D0 /* MainViewController.swift in Sources */,
 				5773209522F7512D002FE887 /* videoHelper.swift in Sources */,
 				57D777E822FB6F9800994C1D /* mainHelper.swift in Sources */,

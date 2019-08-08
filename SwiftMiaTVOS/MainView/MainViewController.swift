@@ -11,6 +11,7 @@ import AlamofireImage
 
 class MainViewController: UIViewController, VideoCollectionViewCellDelegate {
     
+    @IBOutlet weak var membersButton: SMButton!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -118,10 +119,13 @@ extension MainViewController : UICollectionViewDelegateFlowLayout, UICollectionV
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
         let video = videos[indexPath.row]
         goToPlayerWith(video)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, shouldUpdateFocusIn context: UICollectionViewFocusUpdateContext) -> Bool {
         
+        return true
     }
 }
 

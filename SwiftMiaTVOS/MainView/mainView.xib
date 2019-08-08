@@ -16,6 +16,7 @@
                 <outlet property="dateLabel" destination="Ccw-cx-lu6" id="ZTt-5j-pJX"/>
                 <outlet property="descriptionLabel" destination="ihi-wL-G1M" id="hYl-Oa-dfg"/>
                 <outlet property="flowLayout" destination="A79-4j-bHR" id="HoR-0X-aeh"/>
+                <outlet property="membersButton" destination="3KH-EE-Sn0" id="swJ-Pi-0ba"/>
                 <outlet property="titleLabel" destination="Seg-Ii-IFE" id="2v3-Hu-DIH"/>
                 <outlet property="typeSwitcher" destination="1iQ-I7-3mj" id="mWq-xM-Kt0"/>
                 <outlet property="videosCollection" destination="Iej-zC-r0F" id="PqA-Ok-dFW"/>
@@ -74,6 +75,12 @@
                     <color key="textColor" red="0.97637468579999998" green="0.97653776410000004" blue="0.97635322810000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KH-EE-Sn0" customClass="SMButton" customModule="SwiftMiaTVOS" customModuleProvider="target">
+                    <rect key="frame" x="1500" y="65" width="242" height="86"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                    <state key="normal" title="Members"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="Pmt-tb-8Ig"/>

@@ -44,10 +44,12 @@ extension MainViewController {
     
     func prepareFocusGuide() {
         let focusGuide = UIFocusGuide()
+        let upFocusGuide = UIFocusGuide()
         
         //Add the FocusGuide to the layout... is IMPORTANT to do it
         //before setting the anchors
         self.view.addLayoutGuide(focusGuide)
+        self.view.addLayoutGuide(upFocusGuide)
         
         //Indicate where to transfer the focus
         focusGuide.preferredFocusEnvironments = [typeSwitcher]
@@ -60,5 +62,12 @@ extension MainViewController {
         focusGuide.topAnchor.constraint(equalTo: typeSwitcher.bottomAnchor).isActive = true
         focusGuide.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
         
+        upFocusGuide.preferredFocusEnvironments = [membersButton]
+        upFocusGuide.heightAnchor.constraint(equalTo: typeSwitcher.heightAnchor).isActive = true
+        upFocusGuide.widthAnchor.constraint(equalTo: typeSwitcher.widthAnchor).isActive = true
+        upFocusGuide.leftAnchor.constraint(equalTo: typeSwitcher.leftAnchor).isActive = true
+        upFocusGuide.bottomAnchor.constraint(equalTo: typeSwitcher.topAnchor).isActive = true 
     }
+    
+    
 }
