@@ -7,21 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51BDEE0BF56F5AB75C1133D9 /* Pods_SwiftMiaTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F15D6793B713748F5D94EFC /* Pods_SwiftMiaTV.framework */; };
+		5773209522F7512D002FE887 /* videoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773209422F7512D002FE887 /* videoHelper.swift */; };
 		57B23C4E22F6360E002E80D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C4D22F6360E002E80D0 /* AppDelegate.swift */; };
-		57B23C5022F6360E002E80D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C4F22F6360E002E80D0 /* ViewController.swift */; };
 		57B23C5322F6360E002E80D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B23C5122F6360E002E80D0 /* Main.storyboard */; };
 		57B23C5522F63610002E80D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B23C5422F63610002E80D0 /* Assets.xcassets */; };
 		57B23C5822F63610002E80D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B23C5622F63610002E80D0 /* LaunchScreen.storyboard */; };
+		57B23C6622F636AA002E80D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C6522F636AA002E80D0 /* AppDelegate.swift */; };
+		57B23C6822F636AA002E80D0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C6722F636AA002E80D0 /* MainViewController.swift */; };
+		57B23C6B22F636AA002E80D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B23C6922F636AA002E80D0 /* Main.storyboard */; };
+		57B23C6D22F636AB002E80D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B23C6C22F636AB002E80D0 /* Assets.xcassets */; };
+		57B23C7422F637C6002E80D0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C7322F637C6002E80D0 /* Video.swift */; };
+		57B23C7522F637C6002E80D0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C7322F637C6002E80D0 /* Video.swift */; };
+		57B23C7722F63D83002E80D0 /* SMStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C7622F63D82002E80D0 /* SMStore.swift */; };
+		57B23C7822F63D83002E80D0 /* SMStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C7622F63D82002E80D0 /* SMStore.swift */; };
+		57B23C7C22F65D1B002E80D0 /* SMVIdeoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B23C7A22F65D1B002E80D0 /* SMVIdeoCollectionViewCell.swift */; };
+		57B23C8122F65DB4002E80D0 /* videoTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B23C8022F65DB4002E80D0 /* videoTVCell.xib */; };
+		57C1D85022FA27A5007957DB /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1D84F22FA27A5007957DB /* LoadingViewController.swift */; };
+		57C1D85222FA2C8F007957DB /* mainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C1D85122FA2C8F007957DB /* mainView.xib */; };
+		57C1D85522FA3486007957DB /* loadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C1D85422FA3486007957DB /* loadingView.xib */; };
+		57C1D85722FB1354007957DB /* SMApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1D85622FB1354007957DB /* SMApi.swift */; };
+		57C1D85822FB15E0007957DB /* SMApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1D85622FB1354007957DB /* SMApi.swift */; };
+		57D3004A22FBBBAC00060593 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3004922FBBBAC00060593 /* IndexViewController.swift */; };
+		57D3004C22FBBBBE00060593 /* indexView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3004B22FBBBBE00060593 /* indexView.xib */; };
+		57D3005022FBBF6C00060593 /* LoadingPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3004F22FBBF6C00060593 /* LoadingPhoneViewController.swift */; };
+		57D3005222FBC19F00060593 /* loadingPhoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3005122FBC19F00060593 /* loadingPhoneView.xib */; };
+		57D3005422FC4A8400060593 /* videoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3005322FC4A8400060593 /* videoCell.xib */; };
+		57D3005622FC4ADA00060593 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D3005522FC4ADA00060593 /* VideoTableViewCell.swift */; };
+		57D777E822FB6F9800994C1D /* mainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D777E722FB6F9800994C1D /* mainHelper.swift */; };
+		938445FE243B47098453C3F5 /* Pods_SwiftMiaTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD9B99B2B1372B02FF0C98F /* Pods_SwiftMiaTVOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B8DACD04CDC30C8F5B49FCE /* Pods-SwiftMiaTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMiaTV.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV.debug.xcconfig"; sourceTree = "<group>"; };
+		5773209422F7512D002FE887 /* videoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoHelper.swift; sourceTree = "<group>"; };
 		57B23C4A22F6360E002E80D0 /* SwiftMiaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMiaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B23C4D22F6360E002E80D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57B23C4F22F6360E002E80D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57B23C5222F6360E002E80D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57B23C5422F63610002E80D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B23C5722F63610002E80D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57B23C5922F63610002E80D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B23C6322F636AA002E80D0 /* SwiftMiaTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMiaTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B23C6522F636AA002E80D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57B23C6722F636AA002E80D0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		57B23C6A22F636AA002E80D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B23C6C22F636AB002E80D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B23C6E22F636AB002E80D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B23C7322F637C6002E80D0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		57B23C7622F63D82002E80D0 /* SMStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMStore.swift; sourceTree = "<group>"; };
+		57B23C7A22F65D1B002E80D0 /* SMVIdeoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMVIdeoCollectionViewCell.swift; sourceTree = "<group>"; };
+		57B23C8022F65DB4002E80D0 /* videoTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = videoTVCell.xib; sourceTree = "<group>"; };
+		57C1D84F22FA27A5007957DB /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		57C1D85122FA2C8F007957DB /* mainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainView.xib; sourceTree = "<group>"; };
+		57C1D85422FA3486007957DB /* loadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loadingView.xib; sourceTree = "<group>"; };
+		57C1D85622FB1354007957DB /* SMApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMApi.swift; sourceTree = "<group>"; };
+		57D3004922FBBBAC00060593 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		57D3004B22FBBBBE00060593 /* indexView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = indexView.xib; sourceTree = "<group>"; };
+		57D3004F22FBBF6C00060593 /* LoadingPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPhoneViewController.swift; sourceTree = "<group>"; };
+		57D3005122FBC19F00060593 /* loadingPhoneView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loadingPhoneView.xib; sourceTree = "<group>"; };
+		57D3005322FC4A8400060593 /* videoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = videoCell.xib; sourceTree = "<group>"; };
+		57D3005522FC4ADA00060593 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		57D777E722FB6F9800994C1D /* mainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHelper.swift; sourceTree = "<group>"; };
+		6C57C0F614704B6E1215B97D /* Pods-SwiftMiaTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMiaTVOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS.release.xcconfig"; sourceTree = "<group>"; };
+		8D4BBC2E1F0C7C2E96754FBA /* Pods-SwiftMiaTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMiaTVOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8F15D6793B713748F5D94EFC /* Pods_SwiftMiaTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMiaTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD9B99B2B1372B02FF0C98F /* Pods_SwiftMiaTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMiaTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AD0A3DDEFE5C2A562F5275 /* Pods-SwiftMiaTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMiaTV.release.xcconfig"; path = "Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BDEE0BF56F5AB75C1133D9 /* Pods_SwiftMiaTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B23C6022F636AA002E80D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938445FE243B47098453C3F5 /* Pods_SwiftMiaTVOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +98,12 @@
 		57B23C4122F6360E002E80D0 = {
 			isa = PBXGroup;
 			children = (
+				57B23C7222F63701002E80D0 /* CommonFiles  */,
 				57B23C4C22F6360E002E80D0 /* SwiftMiaTV */,
+				57B23C6422F636AA002E80D0 /* SwiftMiaTVOS */,
 				57B23C4B22F6360E002E80D0 /* Products */,
+				86298D58E99FE78E7078EDEA /* Pods */,
+				A4CD2BC2B24FFEE634D669B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				57B23C4A22F6360E002E80D0 /* SwiftMiaTV.app */,
+				57B23C6322F636AA002E80D0 /* SwiftMiaTVOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +120,99 @@
 			isa = PBXGroup;
 			children = (
 				57B23C4D22F6360E002E80D0 /* AppDelegate.swift */,
-				57B23C4F22F6360E002E80D0 /* ViewController.swift */,
 				57B23C5122F6360E002E80D0 /* Main.storyboard */,
 				57B23C5422F63610002E80D0 /* Assets.xcassets */,
 				57B23C5622F63610002E80D0 /* LaunchScreen.storyboard */,
 				57B23C5922F63610002E80D0 /* Info.plist */,
+				57D3004E22FBBDE100060593 /* index */,
+				57D3004F22FBBF6C00060593 /* LoadingPhoneViewController.swift */,
+				57D3005122FBC19F00060593 /* loadingPhoneView.xib */,
 			);
 			path = SwiftMiaTV;
+			sourceTree = "<group>";
+		};
+		57B23C6422F636AA002E80D0 /* SwiftMiaTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				57B23C6522F636AA002E80D0 /* AppDelegate.swift */,
+				57B23C7D22F65D27002E80D0 /* Video Cell */,
+				57C1D85322FA30C1007957DB /* MainView */,
+				57B23C6922F636AA002E80D0 /* Main.storyboard */,
+				57B23C6C22F636AB002E80D0 /* Assets.xcassets */,
+				57B23C6E22F636AB002E80D0 /* Info.plist */,
+				57C1D84F22FA27A5007957DB /* LoadingViewController.swift */,
+				57C1D85422FA3486007957DB /* loadingView.xib */,
+			);
+			path = SwiftMiaTVOS;
+			sourceTree = "<group>";
+		};
+		57B23C7222F63701002E80D0 /* CommonFiles  */ = {
+			isa = PBXGroup;
+			children = (
+				57C1D85622FB1354007957DB /* SMApi.swift */,
+				57B23C7322F637C6002E80D0 /* Video.swift */,
+				57B23C7622F63D82002E80D0 /* SMStore.swift */,
+				57B23C7922F65CC5002E80D0 /* Video Cell Controller */,
+			);
+			path = "CommonFiles ";
+			sourceTree = "<group>";
+		};
+		57B23C7922F65CC5002E80D0 /* Video Cell Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57B23C7A22F65D1B002E80D0 /* SMVIdeoCollectionViewCell.swift */,
+			);
+			path = "Video Cell Controller";
+			sourceTree = "<group>";
+		};
+		57B23C7D22F65D27002E80D0 /* Video Cell */ = {
+			isa = PBXGroup;
+			children = (
+				57B23C8022F65DB4002E80D0 /* videoTVCell.xib */,
+				5773209422F7512D002FE887 /* videoHelper.swift */,
+			);
+			path = "Video Cell";
+			sourceTree = "<group>";
+		};
+		57C1D85322FA30C1007957DB /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				57B23C6722F636AA002E80D0 /* MainViewController.swift */,
+				57C1D85122FA2C8F007957DB /* mainView.xib */,
+				57D777E722FB6F9800994C1D /* mainHelper.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		57D3004E22FBBDE100060593 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				57D3004922FBBBAC00060593 /* IndexViewController.swift */,
+				57D3004B22FBBBBE00060593 /* indexView.xib */,
+				57D3005322FC4A8400060593 /* videoCell.xib */,
+				57D3005522FC4ADA00060593 /* VideoTableViewCell.swift */,
+			);
+			path = index;
+			sourceTree = "<group>";
+		};
+		86298D58E99FE78E7078EDEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DACD04CDC30C8F5B49FCE /* Pods-SwiftMiaTV.debug.xcconfig */,
+				F5AD0A3DDEFE5C2A562F5275 /* Pods-SwiftMiaTV.release.xcconfig */,
+				8D4BBC2E1F0C7C2E96754FBA /* Pods-SwiftMiaTVOS.debug.xcconfig */,
+				6C57C0F614704B6E1215B97D /* Pods-SwiftMiaTVOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4CD2BC2B24FFEE634D669B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F15D6793B713748F5D94EFC /* Pods_SwiftMiaTV.framework */,
+				AFD9B99B2B1372B02FF0C98F /* Pods_SwiftMiaTVOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57B23C5C22F63610002E80D0 /* Build configuration list for PBXNativeTarget "SwiftMiaTV" */;
 			buildPhases = (
+				78A8FEBCCF53298E7FF53518 /* [CP] Check Pods Manifest.lock */,
 				57B23C4622F6360E002E80D0 /* Sources */,
 				57B23C4722F6360E002E80D0 /* Frameworks */,
 				57B23C4822F6360E002E80D0 /* Resources */,
+				E6DD976CB67DBECB9BCCD23C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,6 +235,25 @@
 			name = SwiftMiaTV;
 			productName = SwiftMiaTV;
 			productReference = 57B23C4A22F6360E002E80D0 /* SwiftMiaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B23C6222F636AA002E80D0 /* SwiftMiaTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B23C6F22F636AB002E80D0 /* Build configuration list for PBXNativeTarget "SwiftMiaTVOS" */;
+			buildPhases = (
+				FE287F109C12CD94BE0A0355 /* [CP] Check Pods Manifest.lock */,
+				57B23C5F22F636AA002E80D0 /* Sources */,
+				57B23C6022F636AA002E80D0 /* Frameworks */,
+				57B23C6122F636AA002E80D0 /* Resources */,
+				2BB3A25C9EBB1312EA46F88D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMiaTVOS;
+			productName = SwiftMiaTVOS;
+			productReference = 57B23C6322F636AA002E80D0 /* SwiftMiaTVOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +267,9 @@
 				ORGANIZATIONNAME = "3 Pixels Media";
 				TargetAttributes = {
 					57B23C4922F6360E002E80D0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					57B23C6222F636AA002E80D0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -113,6 +288,7 @@
 			projectRoot = "";
 			targets = (
 				57B23C4922F6360E002E80D0 /* SwiftMiaTV */,
+				57B23C6222F636AA002E80D0 /* SwiftMiaTVOS */,
 			);
 		};
 /* End PBXProject section */
@@ -122,21 +298,152 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D3005222FBC19F00060593 /* loadingPhoneView.xib in Resources */,
 				57B23C5822F63610002E80D0 /* LaunchScreen.storyboard in Resources */,
+				57D3004C22FBBBBE00060593 /* indexView.xib in Resources */,
 				57B23C5522F63610002E80D0 /* Assets.xcassets in Resources */,
 				57B23C5322F6360E002E80D0 /* Main.storyboard in Resources */,
+				57D3005422FC4A8400060593 /* videoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B23C6122F636AA002E80D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B23C8122F65DB4002E80D0 /* videoTVCell.xib in Resources */,
+				57C1D85222FA2C8F007957DB /* mainView.xib in Resources */,
+				57B23C6D22F636AB002E80D0 /* Assets.xcassets in Resources */,
+				57C1D85522FA3486007957DB /* loadingView.xib in Resources */,
+				57B23C6B22F636AA002E80D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB3A25C9EBB1312EA46F88D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage-tvOS/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78A8FEBCCF53298E7FF53518 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMiaTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6DD976CB67DBECB9BCCD23C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage-iOS/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE287F109C12CD94BE0A0355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMiaTVOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57B23C4622F6360E002E80D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B23C5022F6360E002E80D0 /* ViewController.swift in Sources */,
+				57C1D85722FB1354007957DB /* SMApi.swift in Sources */,
+				57B23C7722F63D83002E80D0 /* SMStore.swift in Sources */,
+				57D3005022FBBF6C00060593 /* LoadingPhoneViewController.swift in Sources */,
+				57B23C7422F637C6002E80D0 /* Video.swift in Sources */,
+				57D3005622FC4ADA00060593 /* VideoTableViewCell.swift in Sources */,
 				57B23C4E22F6360E002E80D0 /* AppDelegate.swift in Sources */,
+				57D3004A22FBBBAC00060593 /* IndexViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B23C5F22F636AA002E80D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C1D85822FB15E0007957DB /* SMApi.swift in Sources */,
+				57C1D85022FA27A5007957DB /* LoadingViewController.swift in Sources */,
+				57B23C6822F636AA002E80D0 /* MainViewController.swift in Sources */,
+				5773209522F7512D002FE887 /* videoHelper.swift in Sources */,
+				57D777E822FB6F9800994C1D /* mainHelper.swift in Sources */,
+				57B23C7C22F65D1B002E80D0 /* SMVIdeoCollectionViewCell.swift in Sources */,
+				57B23C7822F63D83002E80D0 /* SMStore.swift in Sources */,
+				57B23C7522F637C6002E80D0 /* Video.swift in Sources */,
+				57B23C6622F636AA002E80D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +464,14 @@
 				57B23C5722F63610002E80D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		57B23C6922F636AA002E80D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B23C6A22F636AA002E80D0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,6 +595,7 @@
 		};
 		57B23C5D22F63610002E80D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8DACD04CDC30C8F5B49FCE /* Pods-SwiftMiaTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +614,7 @@
 		};
 		57B23C5E22F63610002E80D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5AD0A3DDEFE5C2A562F5275 /* Pods-SwiftMiaTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +628,50 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57B23C7022F636AB002E80D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4BBC2E1F0C7C2E96754FBA /* Pods-SwiftMiaTVOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C4XKEJJ73;
+				INFOPLIST_FILE = SwiftMiaTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmedia.SwiftMiaTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		57B23C7122F636AB002E80D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C57C0F614704B6E1215B97D /* Pods-SwiftMiaTVOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C4XKEJJ73;
+				INFOPLIST_FILE = SwiftMiaTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmedia.SwiftMiaTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
 			};
 			name = Release;
 		};
@@ -331,6 +692,15 @@
 			buildConfigurations = (
 				57B23C5D22F63610002E80D0 /* Debug */,
 				57B23C5E22F63610002E80D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B23C6F22F636AB002E80D0 /* Build configuration list for PBXNativeTarget "SwiftMiaTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B23C7022F636AB002E80D0 /* Debug */,
+				57B23C7122F636AB002E80D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,1468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0590321540168664D979264B81535D1A /* AlamofireImage-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A33B92B071EA6F0E64F5CB574917733 /* AlamofireImage-tvOS-dummy.m */; };
+		0B4FEA0BDAA60E7AC63E12A099DFAF9E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB095468EBF1057FF0482FAE49AC55 /* Request.swift */; };
+		106414F52EC45CC0E8629A352B64CA90 /* Pods-SwiftMiaTV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D9A74E6D2210EC603EE7D735884672 /* Pods-SwiftMiaTV-dummy.m */; };
+		108F4A36B1777BA3A07D8669863E705D /* AlamofireImage-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D43671664AF367A21A9390B87AC1DD37 /* AlamofireImage-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		125D03B2AFEA41C33466098E78D16410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F86E9A318F37D1E8479350C4946BF /* Foundation.framework */; };
+		1D93230481C9F79DE3CA0C45F6B19A40 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6B1951676D049FF365A2377FD6D77 /* AFError.swift */; };
+		255AF69952461BFE969061FCA8A43D8C /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D143ABBAEB10556D305A56EDD4EB7F7 /* ParameterEncoding.swift */; };
+		256F5C89C2E274E9C02F8729A0103203 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1D68651D94E784EC8CB95162A7871 /* Image.swift */; };
+		27652A817609EEC2B4AE25BB34E98219 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D92DFC51A307C221F812FE32466F21 /* AFIError.swift */; };
+		2829BBC1E46DC7D7B51FC3DD36671E78 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0805F6B89950CA6AB42E3F636AB14443 /* Alamofire.swift */; };
+		2A478888137D47A07F70E06EEE0DC730 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667ED7AD46F031F4D74828402F9155B /* Notifications.swift */; };
+		3850F09C950DFF5F81F85471FDB71358 /* Pods-SwiftMiaTVOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C51DD34E0EF03252D3856085C52974 /* Pods-SwiftMiaTVOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A82F23F8ED5AEE1F4F296BB4BC20381 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E20B4E29FE42E95CE52AA31496E895 /* Result.swift */; };
+		408AE2B4566B92E728770E32D79EC9E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A509E9115BFDA6E1B2B44F685CFCF627 /* Foundation.framework */; };
+		459F65F4582B861BBA4E0CBEC03216FF /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1D68651D94E784EC8CB95162A7871 /* Image.swift */; };
+		45E91E523296496F0AAFF4B238C8F819 /* Alamofire-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79AFB2768438B9E4D10FFD1AF1C044 /* Alamofire-tvOS-dummy.m */; };
+		46BF720B428D342F4BB6717CD273A1BC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1769C8DD39C9ABB764FC9379366D82C /* ResponseSerialization.swift */; };
+		4DF2CDF205577483274DAFD725361DE8 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB095468EBF1057FF0482FAE49AC55 /* Request.swift */; };
+		521BDB36E5EC8ADA37CBF6922E6858DF /* AlamofireImage-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26902B28DE0E7037E67486EF2E2A32D3 /* AlamofireImage-iOS-dummy.m */; };
+		52DC725D3DAAE66C7A0BAA96B3DB1786 /* AlamofireImage-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FC53BC21E7F26167F4E29EB264DF4E /* AlamofireImage-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5727D7831F72D679A38ED5756F3EB32C /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D92DFC51A307C221F812FE32466F21 /* AFIError.swift */; };
+		5A329C811A7FDA604DD4BE66E400D93F /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A881178B855D496CFAE36D3A1FB51 /* UIImageView+AlamofireImage.swift */; };
+		626E7518E087BD6AFE51B8195702E37F /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1769C8DD39C9ABB764FC9379366D82C /* ResponseSerialization.swift */; };
+		6360C447B983D95FF01205CD93F5ED4D /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168376D8AE3C3EEB14013F57FFD6BB7 /* TaskDelegate.swift */; };
+		64D5EC566E50364CC6F7DD160841F1E7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96B0546BF9BEE6440CBC6B25920C3E /* NetworkReachabilityManager.swift */; };
+		674F391CD438783EFB712817B94013E0 /* Alamofire-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FA7F42BB1A441D3948459A117E7D40 /* Alamofire-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686540D72996B88069F9838729CB0EB0 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6B1951676D049FF365A2377FD6D77 /* AFError.swift */; };
+		6B029337A45965C9F5DB310C311BC7E5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F62132FC2AF53EC90E9A749A0C624B /* SessionManager.swift */; };
+		73229857D96BF1894A82EF8DEFEBDD7D /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980C8C87C6D2E4A928492581537630E /* MultipartFormData.swift */; };
+		74CC2CE86541BF9A0B746829D6550BD3 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6433610230423CE34637A86D7B5C8751 /* Validation.swift */; };
+		76B03DCED68A7DD0A8FA811AF1401025 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E20B4E29FE42E95CE52AA31496E895 /* Result.swift */; };
+		7B196B84EEEC26E288E6EB14730B8722 /* Pods-SwiftMiaTV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7783E83820A2A803FF173FA79F5DD9BB /* Pods-SwiftMiaTV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B57DB88C093B02F029A56466CD03C10 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C9C57C352F82D0CB5424FF5A8C069 /* SessionDelegate.swift */; };
+		7CF266DEC31E7D8E722ABF5BBE5B1EB6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1671ED6C81C0C2942D6FAD2A0FF91 /* Alamofire.framework */; };
+		7EEC28642E10D57E89C2EA47984EAD82 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96B0546BF9BEE6440CBC6B25920C3E /* NetworkReachabilityManager.swift */; };
+		7EFEC8436F4750634A273C87D3DACD94 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4788611EF1C5702632B5D062698E47A /* ImageDownloader.swift */; };
+		80F0C38BA619A8AF30131846224CF3A9 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA58BA5643232CA83962B1335DC780 /* ServerTrustPolicy.swift */; };
+		80F0E198C67886BECFDC260586EA9FD6 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B825AE766F0C4B7394BB8EF6E2097D /* UIButton+AlamofireImage.swift */; };
+		8161BF776508973977177C9E076B2A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F86E9A318F37D1E8479350C4946BF /* Foundation.framework */; };
+		816ABDE1EF16D2BDE31F21A3FD31A850 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD8525303077496DFCA84EF57639C2 /* Timeline.swift */; };
+		8190C6F4DBA2B6231B81F8ABD7FE1CBE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D143ABBAEB10556D305A56EDD4EB7F7 /* ParameterEncoding.swift */; };
+		861DA02C0898E01A023E10672D40F68D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A509E9115BFDA6E1B2B44F685CFCF627 /* Foundation.framework */; };
+		89B2E54309AF3A7D9EAC642375A062C4 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168376D8AE3C3EEB14013F57FFD6BB7 /* TaskDelegate.swift */; };
+		90A592BDC1094D5D41BD5B7636286BA7 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD8525303077496DFCA84EF57639C2 /* Timeline.swift */; };
+		9289C611F913D12D4DCFBB5436FFB052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 727F86E9A318F37D1E8479350C4946BF /* Foundation.framework */; };
+		9470B7689A6ECB4D26D7BF17BA26B8F0 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1FB96C51C4D02E8A3D4A775C17846 /* UIImage+AlamofireImage.swift */; };
+		968E92C03454734D304BA2D9B256B221 /* Alamofire-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F47A7A2C3127F9DD6CD63711A89823B /* Alamofire-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97BC81060EDD860B2DDC3EACC647C55A /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6433610230423CE34637A86D7B5C8751 /* Validation.swift */; };
+		99290C93EDBEB804EE20789762A1FC61 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667ED7AD46F031F4D74828402F9155B /* Notifications.swift */; };
+		9950F7C623BBA669E3CA809BB9CEA055 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78DCA61BF146FDE53ABEE44B6B0169B /* Response.swift */; };
+		9C784D61647C500FD9226E5E2D5BD13E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A509E9115BFDA6E1B2B44F685CFCF627 /* Foundation.framework */; };
+		9F9D3DB856D651D62CA5104E20EFB70E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0805F6B89950CA6AB42E3F636AB14443 /* Alamofire.swift */; };
+		A68C541FD223E5C156603686BB4395A8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1671ED6C81C0C2942D6FAD2A0FF91 /* Alamofire.framework */; };
+		A751896EF6EE7CA8C6D3BD0E371ACC49 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EA58BA5643232CA83962B1335DC780 /* ServerTrustPolicy.swift */; };
+		AE2F3439D250E5B39FB035D821166C53 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDD19670D486159D1449E9016D58BF /* ImageCache.swift */; };
+		AEAE459E62989B7E7D9D38F887E4F717 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDD19670D486159D1449E9016D58BF /* ImageCache.swift */; };
+		B686035FC83F5009F419FED0D65911DE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78DCA61BF146FDE53ABEE44B6B0169B /* Response.swift */; };
+		B7B8C964E08BD820A92C6AF52843FBC3 /* Alamofire-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 742C0C2B35C7BCC58B6E04F3129A7881 /* Alamofire-iOS-dummy.m */; };
+		BB2020BC2E445C59090E540A521BFF41 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4788611EF1C5702632B5D062698E47A /* ImageDownloader.swift */; };
+		BCD3F5965C5586C39776556D3901FC39 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580947D63518FF5A979AED13A318112 /* DispatchQueue+Alamofire.swift */; };
+		C1FC1B5DDF40505C762BF0F46DCCCA13 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86528BD55ACE37DCBB5A69FDCBA4B193 /* Request+AlamofireImage.swift */; };
+		CB03D2FB11028106B75D9F7A64F6FAEE /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615CB363A899B27C56BAB3C1D7F938E /* ImageFilter.swift */; };
+		D00502A8FA2268CA52518F295EA30E94 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A881178B855D496CFAE36D3A1FB51 /* UIImageView+AlamofireImage.swift */; };
+		D0AD9267427E5B0F5ABFAD12418AB52C /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B825AE766F0C4B7394BB8EF6E2097D /* UIButton+AlamofireImage.swift */; };
+		D9EA55155618833F6A35CD45EC77F755 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86528BD55ACE37DCBB5A69FDCBA4B193 /* Request+AlamofireImage.swift */; };
+		E9754908D41B4501B7182F254345F468 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980C8C87C6D2E4A928492581537630E /* MultipartFormData.swift */; };
+		ECA55CFF4572607922165D4836E9EC1A /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C9C57C352F82D0CB5424FF5A8C069 /* SessionDelegate.swift */; };
+		F6B305ADEDDC6CF6A5376659CC92A0BF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F62132FC2AF53EC90E9A749A0C624B /* SessionManager.swift */; };
+		FAC3A93498D6CECEF3C38E81DCF1F313 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580947D63518FF5A979AED13A318112 /* DispatchQueue+Alamofire.swift */; };
+		FAC682D93B0D8506829B59CDE1495784 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1FB96C51C4D02E8A3D4A775C17846 /* UIImage+AlamofireImage.swift */; };
+		FC889F6DDED2508CA2C1C90D3879C22A /* Pods-SwiftMiaTVOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E89370481E9823C9CC368905422C3A63 /* Pods-SwiftMiaTVOS-dummy.m */; };
+		FD900F9E2E5EA5A7938CDBE7F18E70EE /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7615CB363A899B27C56BAB3C1D7F938E /* ImageFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3357D6E4F7968EE5677687362BBCFF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA0D3F2F380C88414707C800CAB82D9;
+			remoteInfo = "Alamofire-iOS";
+		};
+		5D4A8DE717AB9CB50E6D3F558E1255FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C61C4B54358EE2778A1E74337B4F83C;
+			remoteInfo = "Alamofire-tvOS";
+		};
+		6F2EDEBD15CEF89C17AC14C55E02FC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEDED086679C05F72344BD111F60EA1C;
+			remoteInfo = "AlamofireImage-tvOS";
+		};
+		9520D2CC1BADB033EB7A99EBA7D109EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C61C4B54358EE2778A1E74337B4F83C;
+			remoteInfo = "Alamofire-tvOS";
+		};
+		D1AE0B769F796D968E862CE651A84E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AA922642C098C7867EC724F6CC5A65;
+			remoteInfo = "AlamofireImage-iOS";
+		};
+		F2378CEADE24CF076143CA367CDA9775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA0D3F2F380C88414707C800CAB82D9;
+			remoteInfo = "Alamofire-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F681DB07259F2EE656C1D7C92D2DB9 /* Alamofire-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0366AD097958E3151D6E1B98E969067E /* AlamofireImage-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AlamofireImage-tvOS-prefix.pch"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		06EA58BA5643232CA83962B1335DC780 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		0805F6B89950CA6AB42E3F636AB14443 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		1168376D8AE3C3EEB14013F57FFD6BB7 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		11FC53BC21E7F26167F4E29EB264DF4E /* AlamofireImage-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-iOS-umbrella.h"; sourceTree = "<group>"; };
+		1B54D423AD5FE771BCE522EAFB0A7EC0 /* AlamofireImage-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "AlamofireImage-iOS.modulemap"; sourceTree = "<group>"; };
+		1D143ABBAEB10556D305A56EDD4EB7F7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		1FBD8525303077496DFCA84EF57639C2 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		26902B28DE0E7037E67486EF2E2A32D3 /* AlamofireImage-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-iOS-dummy.m"; sourceTree = "<group>"; };
+		31A6B1951676D049FF365A2377FD6D77 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		3F2414FAD3A9D6345E4851BBD065869D /* Pods-SwiftMiaTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftMiaTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		42C51DD34E0EF03252D3856085C52974 /* Pods-SwiftMiaTVOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftMiaTVOS-umbrella.h"; sourceTree = "<group>"; };
+		49EC150412E52F710066EF6D2C8295D9 /* Pods_SwiftMiaTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftMiaTV.framework; path = "Pods-SwiftMiaTV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B96B0546BF9BEE6440CBC6B25920C3E /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4DF1FB96C51C4D02E8A3D4A775C17846 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		4F4C9C57C352F82D0CB5424FF5A8C069 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		4F9A1741659F10D9E79CC163D6B4B0E9 /* Pods-SwiftMiaTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftMiaTVOS.release.xcconfig"; sourceTree = "<group>"; };
+		51DA5F689584FAC2DCCD682C1EECD040 /* Pods-SwiftMiaTV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftMiaTV.modulemap"; sourceTree = "<group>"; };
+		561257651D387524F2F1EBF63713165A /* Pods-SwiftMiaTV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftMiaTV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5688EE393724271D953F1860423FC74C /* AlamofireImage-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "AlamofireImage-tvOS-Info.plist"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS-Info.plist"; sourceTree = "<group>"; };
+		57B825AE766F0C4B7394BB8EF6E2097D /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		57E36EF7FA722B298DCE68BAB185349C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F62132FC2AF53EC90E9A749A0C624B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		610666892C97B64D6FF87908947455CF /* Alamofire-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-iOS-Info.plist"; sourceTree = "<group>"; };
+		6433610230423CE34637A86D7B5C8751 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		6980C8C87C6D2E4A928492581537630E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		6F47A7A2C3127F9DD6CD63711A89823B /* Alamofire-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-tvOS-umbrella.h"; path = "../Alamofire-tvOS/Alamofire-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		700ED241025B5DFA8FDCC6F617CAD2C5 /* Alamofire-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-iOS.xcconfig"; sourceTree = "<group>"; };
+		727F86E9A318F37D1E8479350C4946BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		742C0C2B35C7BCC58B6E04F3129A7881 /* Alamofire-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-iOS-dummy.m"; sourceTree = "<group>"; };
+		7615CB363A899B27C56BAB3C1D7F938E /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
+		771D56AB3393051C120178260FFA32B6 /* Pods-SwiftMiaTVOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftMiaTVOS.modulemap"; sourceTree = "<group>"; };
+		7783E83820A2A803FF173FA79F5DD9BB /* Pods-SwiftMiaTV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftMiaTV-umbrella.h"; sourceTree = "<group>"; };
+		7A30A21D344B2A8BFCA4949B544DFAA8 /* Pods-SwiftMiaTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftMiaTV.release.xcconfig"; sourceTree = "<group>"; };
+		7CE3C9CB7720DE3367FA5901A623FBB2 /* Pods-SwiftMiaTVOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftMiaTVOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		81C35DCF9984E10B0FAEF95B2F9E898B /* AlamofireImage-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AlamofireImage-tvOS.xcconfig"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS.xcconfig"; sourceTree = "<group>"; };
+		863FA3AA0CB5DE1B0D587B3635F563A8 /* Pods-SwiftMiaTVOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftMiaTVOS-Info.plist"; sourceTree = "<group>"; };
+		86528BD55ACE37DCBB5A69FDCBA4B193 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		8A33B92B071EA6F0E64F5CB574917733 /* AlamofireImage-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AlamofireImage-tvOS-dummy.m"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS-dummy.m"; sourceTree = "<group>"; };
+		8DE1D68651D94E784EC8CB95162A7871 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		8FF2180E92B65D16D291A37A167751A0 /* Alamofire-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Alamofire-tvOS.modulemap"; path = "../Alamofire-tvOS/Alamofire-tvOS.modulemap"; sourceTree = "<group>"; };
+		97D92DFC51A307C221F812FE32466F21 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFB095468EBF1057FF0482FAE49AC55 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		A4788611EF1C5702632B5D062698E47A /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
+		A509E9115BFDA6E1B2B44F685CFCF627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B22116D8F1A0F7DFC954817E736DE5D1 /* Alamofire-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Alamofire-iOS.modulemap"; sourceTree = "<group>"; };
+		B667ED7AD46F031F4D74828402F9155B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		B6E20B4E29FE42E95CE52AA31496E895 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		B84360A52F364D7AA8EA674487C9A8EB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0BD81B74A03B6E46467E109B2B21FF /* Pods-SwiftMiaTVOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftMiaTVOS-frameworks.sh"; sourceTree = "<group>"; };
+		C1769C8DD39C9ABB764FC9379366D82C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		C1CFCA14BF9458A4081AE9EAF9FC290D /* Alamofire-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-tvOS-prefix.pch"; path = "../Alamofire-tvOS/Alamofire-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		CD02CFD3BCE851E8D2BB90316F539A46 /* AlamofireImage-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlamofireImage-iOS-Info.plist"; sourceTree = "<group>"; };
+		D1779D9170938D593349991FB20D5AB3 /* Alamofire-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Alamofire-tvOS.xcconfig"; path = "../Alamofire-tvOS/Alamofire-tvOS.xcconfig"; sourceTree = "<group>"; };
+		D3D9A74E6D2210EC603EE7D735884672 /* Pods-SwiftMiaTV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftMiaTV-dummy.m"; sourceTree = "<group>"; };
+		D43671664AF367A21A9390B87AC1DD37 /* AlamofireImage-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AlamofireImage-tvOS-umbrella.h"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		D5FA7F42BB1A441D3948459A117E7D40 /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
+		D6C1671ED6C81C0C2942D6FAD2A0FF91 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD79AFB2768438B9E4D10FFD1AF1C044 /* Alamofire-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-tvOS-dummy.m"; path = "../Alamofire-tvOS/Alamofire-tvOS-dummy.m"; sourceTree = "<group>"; };
+		DE231CDC427272434D2B349E1BD7ADB9 /* Pods-SwiftMiaTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftMiaTV.debug.xcconfig"; sourceTree = "<group>"; };
+		E03841A16EEEEB69F8CD07C154817297 /* AlamofireImage-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "AlamofireImage-tvOS.modulemap"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap"; sourceTree = "<group>"; };
+		E080FA025F203B4274843FB6E0F82FD7 /* Alamofire-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Alamofire-tvOS-Info.plist"; path = "../Alamofire-tvOS/Alamofire-tvOS-Info.plist"; sourceTree = "<group>"; };
+		E26A881178B855D496CFAE36D3A1FB51 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		E41470B984B334B3D4669FB28B926C34 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = "AlamofireImage-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EDD19670D486159D1449E9016D58BF /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		E5CD37A5F8C57F7033CD1D97535F176B /* Pods-SwiftMiaTV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftMiaTV-Info.plist"; sourceTree = "<group>"; };
+		E89370481E9823C9CC368905422C3A63 /* Pods-SwiftMiaTVOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftMiaTVOS-dummy.m"; sourceTree = "<group>"; };
+		EABBF88AE95B08CE418AC9BA3907E2C4 /* Pods-SwiftMiaTV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftMiaTV-frameworks.sh"; sourceTree = "<group>"; };
+		EBB22350D5285816D7744B1CA9E06281 /* Pods-SwiftMiaTV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftMiaTV-acknowledgements.plist"; sourceTree = "<group>"; };
+		EECFB10589FBD3C322D3EBC6E3860242 /* AlamofireImage-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlamofireImage-iOS.xcconfig"; sourceTree = "<group>"; };
+		F4CBDE7898E01B461EB5646E9AD72D7B /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = "AlamofireImage-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F580947D63518FF5A979AED13A318112 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F593752785764E3EF10F4DC2CE81956F /* Pods-SwiftMiaTVOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftMiaTVOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F78DCA61BF146FDE53ABEE44B6B0169B /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		F960349820F14E458D042EE8EC9D746C /* Pods_SwiftMiaTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftMiaTVOS.framework; path = "Pods-SwiftMiaTVOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC25CBC31760B20E6519D182649C2DC2 /* AlamofireImage-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-iOS-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E2C1650E551F45450B1E8197392C6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF266DEC31E7D8E722ABF5BBE5B1EB6 /* Alamofire.framework in Frameworks */,
+				861DA02C0898E01A023E10672D40F68D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7B6C105FF5BACE5DBEFBCEFAAC047F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408AE2B4566B92E728770E32D79EC9E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3B58EB31A6B5CAB647DFD21E7F080E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C784D61647C500FD9226E5E2D5BD13E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDE8486420FFF202A797EA7F50E1FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8161BF776508973977177C9E076B2A23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF92CEF0E432956AF1A643155DCC518F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68C541FD223E5C156603686BB4395A8 /* Alamofire.framework in Frameworks */,
+				9289C611F913D12D4DCFBB5436FFB052 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC81E81AB2F824C381E0E0608AAC7DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125D03B2AFEA41C33466098E78D16410 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087D74A004C1810878838BFC2B568870 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFC61C852F83D4B15E0F5587EE89CE /* Pods-SwiftMiaTV */,
+				26F0FA4906FE253D14D35487C878C4F6 /* Pods-SwiftMiaTVOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0B311EF08E5F7E3AC559EC393051E57D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22116D8F1A0F7DFC954817E736DE5D1 /* Alamofire-iOS.modulemap */,
+				700ED241025B5DFA8FDCC6F617CAD2C5 /* Alamofire-iOS.xcconfig */,
+				742C0C2B35C7BCC58B6E04F3129A7881 /* Alamofire-iOS-dummy.m */,
+				610666892C97B64D6FF87908947455CF /* Alamofire-iOS-Info.plist */,
+				00F681DB07259F2EE656C1D7C92D2DB9 /* Alamofire-iOS-prefix.pch */,
+				D5FA7F42BB1A441D3948459A117E7D40 /* Alamofire-iOS-umbrella.h */,
+				8FF2180E92B65D16D291A37A167751A0 /* Alamofire-tvOS.modulemap */,
+				D1779D9170938D593349991FB20D5AB3 /* Alamofire-tvOS.xcconfig */,
+				DD79AFB2768438B9E4D10FFD1AF1C044 /* Alamofire-tvOS-dummy.m */,
+				E080FA025F203B4274843FB6E0F82FD7 /* Alamofire-tvOS-Info.plist */,
+				C1CFCA14BF9458A4081AE9EAF9FC290D /* Alamofire-tvOS-prefix.pch */,
+				6F47A7A2C3127F9DD6CD63711A89823B /* Alamofire-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire-iOS";
+			sourceTree = "<group>";
+		};
+		26F0FA4906FE253D14D35487C878C4F6 /* Pods-SwiftMiaTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				771D56AB3393051C120178260FFA32B6 /* Pods-SwiftMiaTVOS.modulemap */,
+				F593752785764E3EF10F4DC2CE81956F /* Pods-SwiftMiaTVOS-acknowledgements.markdown */,
+				7CE3C9CB7720DE3367FA5901A623FBB2 /* Pods-SwiftMiaTVOS-acknowledgements.plist */,
+				E89370481E9823C9CC368905422C3A63 /* Pods-SwiftMiaTVOS-dummy.m */,
+				BA0BD81B74A03B6E46467E109B2B21FF /* Pods-SwiftMiaTVOS-frameworks.sh */,
+				863FA3AA0CB5DE1B0D587B3635F563A8 /* Pods-SwiftMiaTVOS-Info.plist */,
+				42C51DD34E0EF03252D3856085C52974 /* Pods-SwiftMiaTVOS-umbrella.h */,
+				3F2414FAD3A9D6345E4851BBD065869D /* Pods-SwiftMiaTVOS.debug.xcconfig */,
+				4F9A1741659F10D9E79CC163D6B4B0E9 /* Pods-SwiftMiaTVOS.release.xcconfig */,
+			);
+			name = "Pods-SwiftMiaTVOS";
+			path = "Target Support Files/Pods-SwiftMiaTVOS";
+			sourceTree = "<group>";
+		};
+		390F43DE1AD63D8D634F0904CEA0B94D /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				727F86E9A318F37D1E8479350C4946BF /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		3DEDB044C3A281F305A2AFF1565DCDDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B54D423AD5FE771BCE522EAFB0A7EC0 /* AlamofireImage-iOS.modulemap */,
+				EECFB10589FBD3C322D3EBC6E3860242 /* AlamofireImage-iOS.xcconfig */,
+				26902B28DE0E7037E67486EF2E2A32D3 /* AlamofireImage-iOS-dummy.m */,
+				CD02CFD3BCE851E8D2BB90316F539A46 /* AlamofireImage-iOS-Info.plist */,
+				FC25CBC31760B20E6519D182649C2DC2 /* AlamofireImage-iOS-prefix.pch */,
+				11FC53BC21E7F26167F4E29EB264DF4E /* AlamofireImage-iOS-umbrella.h */,
+				E03841A16EEEEB69F8CD07C154817297 /* AlamofireImage-tvOS.modulemap */,
+				81C35DCF9984E10B0FAEF95B2F9E898B /* AlamofireImage-tvOS.xcconfig */,
+				8A33B92B071EA6F0E64F5CB574917733 /* AlamofireImage-tvOS-dummy.m */,
+				5688EE393724271D953F1860423FC74C /* AlamofireImage-tvOS-Info.plist */,
+				0366AD097958E3151D6E1B98E969067E /* AlamofireImage-tvOS-prefix.pch */,
+				D43671664AF367A21A9390B87AC1DD37 /* AlamofireImage-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlamofireImage-iOS";
+			sourceTree = "<group>";
+		};
+		5CE13DC3C598C1BB27C994BF9B4AB11C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A509E9115BFDA6E1B2B44F685CFCF627 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66CB4E18E45F9CF79A7EB32656F2EB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E36EF7FA722B298DCE68BAB185349C /* Alamofire.framework */,
+				B84360A52F364D7AA8EA674487C9A8EB /* Alamofire.framework */,
+				E41470B984B334B3D4669FB28B926C34 /* AlamofireImage.framework */,
+				F4CBDE7898E01B461EB5646E9AD72D7B /* AlamofireImage.framework */,
+				49EC150412E52F710066EF6D2C8295D9 /* Pods_SwiftMiaTV.framework */,
+				F960349820F14E458D042EE8EC9D746C /* Pods_SwiftMiaTVOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B42971A4515C8937CC0E89922F3A79C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1671ED6C81C0C2942D6FAD2A0FF91 /* Alamofire.framework */,
+				5CE13DC3C598C1BB27C994BF9B4AB11C /* iOS */,
+				390F43DE1AD63D8D634F0904CEA0B94D /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA4DC10CCEE4316200AAD9CB5FD4C78 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				31A6B1951676D049FF365A2377FD6D77 /* AFError.swift */,
+				0805F6B89950CA6AB42E3F636AB14443 /* Alamofire.swift */,
+				F580947D63518FF5A979AED13A318112 /* DispatchQueue+Alamofire.swift */,
+				6980C8C87C6D2E4A928492581537630E /* MultipartFormData.swift */,
+				4B96B0546BF9BEE6440CBC6B25920C3E /* NetworkReachabilityManager.swift */,
+				B667ED7AD46F031F4D74828402F9155B /* Notifications.swift */,
+				1D143ABBAEB10556D305A56EDD4EB7F7 /* ParameterEncoding.swift */,
+				9EFB095468EBF1057FF0482FAE49AC55 /* Request.swift */,
+				F78DCA61BF146FDE53ABEE44B6B0169B /* Response.swift */,
+				C1769C8DD39C9ABB764FC9379366D82C /* ResponseSerialization.swift */,
+				B6E20B4E29FE42E95CE52AA31496E895 /* Result.swift */,
+				06EA58BA5643232CA83962B1335DC780 /* ServerTrustPolicy.swift */,
+				4F4C9C57C352F82D0CB5424FF5A8C069 /* SessionDelegate.swift */,
+				60F62132FC2AF53EC90E9A749A0C624B /* SessionManager.swift */,
+				1168376D8AE3C3EEB14013F57FFD6BB7 /* TaskDelegate.swift */,
+				1FBD8525303077496DFCA84EF57639C2 /* Timeline.swift */,
+				6433610230423CE34637A86D7B5C8751 /* Validation.swift */,
+				0B311EF08E5F7E3AC559EC393051E57D /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		98F058B8F314462D644E8670D4F5BEF1 /* AlamofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				97D92DFC51A307C221F812FE32466F21 /* AFIError.swift */,
+				8DE1D68651D94E784EC8CB95162A7871 /* Image.swift */,
+				E4EDD19670D486159D1449E9016D58BF /* ImageCache.swift */,
+				A4788611EF1C5702632B5D062698E47A /* ImageDownloader.swift */,
+				7615CB363A899B27C56BAB3C1D7F938E /* ImageFilter.swift */,
+				86528BD55ACE37DCBB5A69FDCBA4B193 /* Request+AlamofireImage.swift */,
+				57B825AE766F0C4B7394BB8EF6E2097D /* UIButton+AlamofireImage.swift */,
+				4DF1FB96C51C4D02E8A3D4A775C17846 /* UIImage+AlamofireImage.swift */,
+				E26A881178B855D496CFAE36D3A1FB51 /* UIImageView+AlamofireImage.swift */,
+				3DEDB044C3A281F305A2AFF1565DCDDA /* Support Files */,
+			);
+			name = AlamofireImage;
+			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		BCE988A47AA8D87E6A51113DA5D257CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4DC10CCEE4316200AAD9CB5FD4C78 /* Alamofire */,
+				98F058B8F314462D644E8670D4F5BEF1 /* AlamofireImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBEFC61C852F83D4B15E0F5587EE89CE /* Pods-SwiftMiaTV */ = {
+			isa = PBXGroup;
+			children = (
+				51DA5F689584FAC2DCCD682C1EECD040 /* Pods-SwiftMiaTV.modulemap */,
+				561257651D387524F2F1EBF63713165A /* Pods-SwiftMiaTV-acknowledgements.markdown */,
+				EBB22350D5285816D7744B1CA9E06281 /* Pods-SwiftMiaTV-acknowledgements.plist */,
+				D3D9A74E6D2210EC603EE7D735884672 /* Pods-SwiftMiaTV-dummy.m */,
+				EABBF88AE95B08CE418AC9BA3907E2C4 /* Pods-SwiftMiaTV-frameworks.sh */,
+				E5CD37A5F8C57F7033CD1D97535F176B /* Pods-SwiftMiaTV-Info.plist */,
+				7783E83820A2A803FF173FA79F5DD9BB /* Pods-SwiftMiaTV-umbrella.h */,
+				DE231CDC427272434D2B349E1BD7ADB9 /* Pods-SwiftMiaTV.debug.xcconfig */,
+				7A30A21D344B2A8BFCA4949B544DFAA8 /* Pods-SwiftMiaTV.release.xcconfig */,
+			);
+			name = "Pods-SwiftMiaTV";
+			path = "Target Support Files/Pods-SwiftMiaTV";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7B42971A4515C8937CC0E89922F3A79C /* Frameworks */,
+				BCE988A47AA8D87E6A51113DA5D257CA /* Pods */,
+				66CB4E18E45F9CF79A7EB32656F2EB63 /* Products */,
+				087D74A004C1810878838BFC2B568870 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		123108C63FA56702875F284381409F88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DC725D3DAAE66C7A0BAA96B3DB1786 /* AlamofireImage-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9592D51388440735E1294AA73864BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3850F09C950DFF5F81F85471FDB71358 /* Pods-SwiftMiaTVOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D64A03A31972B26E8A84F15CD1B28C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968E92C03454734D304BA2D9B256B221 /* Alamofire-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A3B900D6AE6776B49969FCD67082A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674F391CD438783EFB712817B94013E0 /* Alamofire-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A4DE3901373AFE03AB3F8BE746C002 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B196B84EEEC26E288E6EB14730B8722 /* Pods-SwiftMiaTV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B11F0C2EC537A8BD0E3057D3860AD30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108F4A36B1777BA3A07D8669863E705D /* AlamofireImage-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C61C4B54358EE2778A1E74337B4F83C /* Alamofire-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43E243D7C57F9C14C06A050A17E2901 /* Build configuration list for PBXNativeTarget "Alamofire-tvOS" */;
+			buildPhases = (
+				34D64A03A31972B26E8A84F15CD1B28C /* Headers */,
+				FA9A597C009A386DA329D996CA4A19DA /* Sources */,
+				3EDE8486420FFF202A797EA7F50E1FAC /* Frameworks */,
+				476B87A4F50C18E78B65A254EC720445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-tvOS";
+			productName = "Alamofire-tvOS";
+			productReference = B84360A52F364D7AA8EA674487C9A8EB /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D0924032CC5BFE09DA612AFF30EBC0B /* Pods-SwiftMiaTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FEABB7877054D9D4EA4C31E3440239 /* Build configuration list for PBXNativeTarget "Pods-SwiftMiaTVOS" */;
+			buildPhases = (
+				2E9592D51388440735E1294AA73864BC /* Headers */,
+				CE1612E18FD0F3128D26B2B0A2CF3BF2 /* Sources */,
+				BC81E81AB2F824C381E0E0608AAC7DD5 /* Frameworks */,
+				1F52643927990C70A87AC3C811ABFC2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8791D718F5007E41F57DA527EFB56D20 /* PBXTargetDependency */,
+				ED7B1F310F85CEE7E1EF50284A50F839 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftMiaTVOS";
+			productName = "Pods-SwiftMiaTVOS";
+			productReference = F960349820F14E458D042EE8EC9D746C /* Pods_SwiftMiaTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AEAF054145587D91A8610E24B796B4 /* Build configuration list for PBXNativeTarget "Alamofire-iOS" */;
+			buildPhases = (
+				40A3B900D6AE6776B49969FCD67082A3 /* Headers */,
+				C9ED9C82C79196E2B6D3FBF39701E5E9 /* Sources */,
+				3B7B6C105FF5BACE5DBEFBCEFAAC047F /* Frameworks */,
+				BA1B837C01DF16A27FD55DB8BD441162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-iOS";
+			productName = "Alamofire-iOS";
+			productReference = 57E36EF7FA722B298DCE68BAB185349C /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEDED086679C05F72344BD111F60EA1C /* AlamofireImage-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78FC75F73343B25E9EFB9E8FF9C7400 /* Build configuration list for PBXNativeTarget "AlamofireImage-tvOS" */;
+			buildPhases = (
+				6B11F0C2EC537A8BD0E3057D3860AD30 /* Headers */,
+				2BF106178F29906440E3570A56ADBF35 /* Sources */,
+				AF92CEF0E432956AF1A643155DCC518F /* Frameworks */,
+				4B4D4555840891CD6FEBCF075B248FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CEA4438A3459BFA851194DCC7F8B88E /* PBXTargetDependency */,
+			);
+			name = "AlamofireImage-tvOS";
+			productName = "AlamofireImage-tvOS";
+			productReference = F4CBDE7898E01B461EB5646E9AD72D7B /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1AA922642C098C7867EC724F6CC5A65 /* AlamofireImage-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA823DDB8C0A98CD32228866419BF83 /* Build configuration list for PBXNativeTarget "AlamofireImage-iOS" */;
+			buildPhases = (
+				123108C63FA56702875F284381409F88 /* Headers */,
+				7AA775F21DD35B110C0AB619B6CDBFDE /* Sources */,
+				1E2C1650E551F45450B1E8197392C6FD /* Frameworks */,
+				D315D89A1C2A66E82617BD8715E7A52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B298588AB131D07290D034384BE2AFB /* PBXTargetDependency */,
+			);
+			name = "AlamofireImage-iOS";
+			productName = "AlamofireImage-iOS";
+			productReference = E41470B984B334B3D4669FB28B926C34 /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA79D5F191C3FEC5DCB1EF55932A5B25 /* Pods-SwiftMiaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E7823FD966C601127C8E4A2C6DBA2E /* Build configuration list for PBXNativeTarget "Pods-SwiftMiaTV" */;
+			buildPhases = (
+				67A4DE3901373AFE03AB3F8BE746C002 /* Headers */,
+				5483FEB2EB758ED8B2A841BA96C51CC3 /* Sources */,
+				3D3B58EB31A6B5CAB647DFD21E7F080E /* Frameworks */,
+				AF08FE9B7C5B2808892E386992AB595D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCAF250BF84CD026D571CF430A3988B /* PBXTargetDependency */,
+				8659E92940FEAD3BA0A707911116C039 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftMiaTV";
+			productName = "Pods-SwiftMiaTV";
+			productReference = 49EC150412E52F710066EF6D2C8295D9 /* Pods_SwiftMiaTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 66CB4E18E45F9CF79A7EB32656F2EB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */,
+				6C61C4B54358EE2778A1E74337B4F83C /* Alamofire-tvOS */,
+				F1AA922642C098C7867EC724F6CC5A65 /* AlamofireImage-iOS */,
+				BEDED086679C05F72344BD111F60EA1C /* AlamofireImage-tvOS */,
+				FA79D5F191C3FEC5DCB1EF55932A5B25 /* Pods-SwiftMiaTV */,
+				6D0924032CC5BFE09DA612AFF30EBC0B /* Pods-SwiftMiaTVOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F52643927990C70A87AC3C811ABFC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476B87A4F50C18E78B65A254EC720445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4D4555840891CD6FEBCF075B248FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF08FE9B7C5B2808892E386992AB595D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1B837C01DF16A27FD55DB8BD441162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D315D89A1C2A66E82617BD8715E7A52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF106178F29906440E3570A56ADBF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27652A817609EEC2B4AE25BB34E98219 /* AFIError.swift in Sources */,
+				0590321540168664D979264B81535D1A /* AlamofireImage-tvOS-dummy.m in Sources */,
+				256F5C89C2E274E9C02F8729A0103203 /* Image.swift in Sources */,
+				AE2F3439D250E5B39FB035D821166C53 /* ImageCache.swift in Sources */,
+				BB2020BC2E445C59090E540A521BFF41 /* ImageDownloader.swift in Sources */,
+				FD900F9E2E5EA5A7938CDBE7F18E70EE /* ImageFilter.swift in Sources */,
+				C1FC1B5DDF40505C762BF0F46DCCCA13 /* Request+AlamofireImage.swift in Sources */,
+				D0AD9267427E5B0F5ABFAD12418AB52C /* UIButton+AlamofireImage.swift in Sources */,
+				9470B7689A6ECB4D26D7BF17BA26B8F0 /* UIImage+AlamofireImage.swift in Sources */,
+				D00502A8FA2268CA52518F295EA30E94 /* UIImageView+AlamofireImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5483FEB2EB758ED8B2A841BA96C51CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106414F52EC45CC0E8629A352B64CA90 /* Pods-SwiftMiaTV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA775F21DD35B110C0AB619B6CDBFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5727D7831F72D679A38ED5756F3EB32C /* AFIError.swift in Sources */,
+				521BDB36E5EC8ADA37CBF6922E6858DF /* AlamofireImage-iOS-dummy.m in Sources */,
+				459F65F4582B861BBA4E0CBEC03216FF /* Image.swift in Sources */,
+				AEAE459E62989B7E7D9D38F887E4F717 /* ImageCache.swift in Sources */,
+				7EFEC8436F4750634A273C87D3DACD94 /* ImageDownloader.swift in Sources */,
+				CB03D2FB11028106B75D9F7A64F6FAEE /* ImageFilter.swift in Sources */,
+				D9EA55155618833F6A35CD45EC77F755 /* Request+AlamofireImage.swift in Sources */,
+				80F0E198C67886BECFDC260586EA9FD6 /* UIButton+AlamofireImage.swift in Sources */,
+				FAC682D93B0D8506829B59CDE1495784 /* UIImage+AlamofireImage.swift in Sources */,
+				5A329C811A7FDA604DD4BE66E400D93F /* UIImageView+AlamofireImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ED9C82C79196E2B6D3FBF39701E5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D93230481C9F79DE3CA0C45F6B19A40 /* AFError.swift in Sources */,
+				B7B8C964E08BD820A92C6AF52843FBC3 /* Alamofire-iOS-dummy.m in Sources */,
+				9F9D3DB856D651D62CA5104E20EFB70E /* Alamofire.swift in Sources */,
+				BCD3F5965C5586C39776556D3901FC39 /* DispatchQueue+Alamofire.swift in Sources */,
+				E9754908D41B4501B7182F254345F468 /* MultipartFormData.swift in Sources */,
+				64D5EC566E50364CC6F7DD160841F1E7 /* NetworkReachabilityManager.swift in Sources */,
+				2A478888137D47A07F70E06EEE0DC730 /* Notifications.swift in Sources */,
+				255AF69952461BFE969061FCA8A43D8C /* ParameterEncoding.swift in Sources */,
+				4DF2CDF205577483274DAFD725361DE8 /* Request.swift in Sources */,
+				9950F7C623BBA669E3CA809BB9CEA055 /* Response.swift in Sources */,
+				46BF720B428D342F4BB6717CD273A1BC /* ResponseSerialization.swift in Sources */,
+				3A82F23F8ED5AEE1F4F296BB4BC20381 /* Result.swift in Sources */,
+				A751896EF6EE7CA8C6D3BD0E371ACC49 /* ServerTrustPolicy.swift in Sources */,
+				7B57DB88C093B02F029A56466CD03C10 /* SessionDelegate.swift in Sources */,
+				F6B305ADEDDC6CF6A5376659CC92A0BF /* SessionManager.swift in Sources */,
+				6360C447B983D95FF01205CD93F5ED4D /* TaskDelegate.swift in Sources */,
+				816ABDE1EF16D2BDE31F21A3FD31A850 /* Timeline.swift in Sources */,
+				97BC81060EDD860B2DDC3EACC647C55A /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1612E18FD0F3128D26B2B0A2CF3BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC889F6DDED2508CA2C1C90D3879C22A /* Pods-SwiftMiaTVOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9A597C009A386DA329D996CA4A19DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686540D72996B88069F9838729CB0EB0 /* AFError.swift in Sources */,
+				45E91E523296496F0AAFF4B238C8F819 /* Alamofire-tvOS-dummy.m in Sources */,
+				2829BBC1E46DC7D7B51FC3DD36671E78 /* Alamofire.swift in Sources */,
+				FAC3A93498D6CECEF3C38E81DCF1F313 /* DispatchQueue+Alamofire.swift in Sources */,
+				73229857D96BF1894A82EF8DEFEBDD7D /* MultipartFormData.swift in Sources */,
+				7EEC28642E10D57E89C2EA47984EAD82 /* NetworkReachabilityManager.swift in Sources */,
+				99290C93EDBEB804EE20789762A1FC61 /* Notifications.swift in Sources */,
+				8190C6F4DBA2B6231B81F8ABD7FE1CBE /* ParameterEncoding.swift in Sources */,
+				0B4FEA0BDAA60E7AC63E12A099DFAF9E /* Request.swift in Sources */,
+				B686035FC83F5009F419FED0D65911DE /* Response.swift in Sources */,
+				626E7518E087BD6AFE51B8195702E37F /* ResponseSerialization.swift in Sources */,
+				76B03DCED68A7DD0A8FA811AF1401025 /* Result.swift in Sources */,
+				80F0C38BA619A8AF30131846224CF3A9 /* ServerTrustPolicy.swift in Sources */,
+				ECA55CFF4572607922165D4836E9EC1A /* SessionDelegate.swift in Sources */,
+				6B029337A45965C9F5DB310C311BC7E5 /* SessionManager.swift in Sources */,
+				89B2E54309AF3A7D9EAC642375A062C4 /* TaskDelegate.swift in Sources */,
+				90A592BDC1094D5D41BD5B7636286BA7 /* Timeline.swift in Sources */,
+				74CC2CE86541BF9A0B746829D6550BD3 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BCAF250BF84CD026D571CF430A3988B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-iOS";
+			target = 9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */;
+			targetProxy = 3357D6E4F7968EE5677687362BBCFF6C /* PBXContainerItemProxy */;
+		};
+		1CEA4438A3459BFA851194DCC7F8B88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-tvOS";
+			target = 6C61C4B54358EE2778A1E74337B4F83C /* Alamofire-tvOS */;
+			targetProxy = 9520D2CC1BADB033EB7A99EBA7D109EC /* PBXContainerItemProxy */;
+		};
+		8659E92940FEAD3BA0A707911116C039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlamofireImage-iOS";
+			target = F1AA922642C098C7867EC724F6CC5A65 /* AlamofireImage-iOS */;
+			targetProxy = D1AE0B769F796D968E862CE651A84E2A /* PBXContainerItemProxy */;
+		};
+		8791D718F5007E41F57DA527EFB56D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-tvOS";
+			target = 6C61C4B54358EE2778A1E74337B4F83C /* Alamofire-tvOS */;
+			targetProxy = 5D4A8DE717AB9CB50E6D3F558E1255FF /* PBXContainerItemProxy */;
+		};
+		9B298588AB131D07290D034384BE2AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-iOS";
+			target = 9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */;
+			targetProxy = F2378CEADE24CF076143CA367CDA9775 /* PBXContainerItemProxy */;
+		};
+		ED7B1F310F85CEE7E1EF50284A50F839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlamofireImage-tvOS";
+			target = BEDED086679C05F72344BD111F60EA1C /* AlamofireImage-tvOS */;
+			targetProxy = 6F2EDEBD15CEF89C17AC14C55E02FC03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10FA6AD677D9AA0CB9B8A31F9E75E93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700ED241025B5DFA8FDCC6F617CAD2C5 /* Alamofire-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-iOS/Alamofire-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		123133A98F8C03EBEFD1F1D95551100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2414FAD3A9D6345E4851BBD065869D /* Pods-SwiftMiaTVOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1ED0B8B05391A00B03ABC98768A9F1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9A1741659F10D9E79CC163D6B4B0E9 /* Pods-SwiftMiaTVOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftMiaTVOS/Pods-SwiftMiaTVOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26143421F4D3B85E1DA4AF4B7E55C455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE231CDC427272434D2B349E1BD7ADB9 /* Pods-SwiftMiaTV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2793E0308222A85E0C5A9AB052E1D297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECFB10589FBD3C322D3EBC6E3860242 /* AlamofireImage-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-iOS/AlamofireImage-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage-iOS/AlamofireImage-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage-iOS/AlamofireImage-iOS.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BFE00184B2702697467C14A35D2F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		4288CEE0D7C42DC5302D66DC53CF665D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1779D9170938D593349991FB20D5AB3 /* Alamofire-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48E7B68038D5A75165C082EB13AC43BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C35DCF9984E10B0FAEF95B2F9E898B /* AlamofireImage-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AED10F57FC126578F192E53D08E6A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700ED241025B5DFA8FDCC6F617CAD2C5 /* Alamofire-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-iOS/Alamofire-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C0AD644CE6F4E1C42150A693EC3401C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1779D9170938D593349991FB20D5AB3 /* Alamofire-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BAE0C416841B20E4870B92B5516EA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A30A21D344B2A8BFCA4949B544DFAA8 /* Pods-SwiftMiaTV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftMiaTV/Pods-SwiftMiaTV.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D23968C286B0F5BFC88D1B45A7C0F23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		BA054786FCD0DF1E4EE69A6DB3E6E2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECFB10589FBD3C322D3EBC6E3860242 /* AlamofireImage-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-iOS/AlamofireImage-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage-iOS/AlamofireImage-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage-iOS/AlamofireImage-iOS.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D05AAB9E32CCEB2EFAF2FA527B02A94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C35DCF9984E10B0FAEF95B2F9E898B /* AlamofireImage-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05AEAF054145587D91A8610E24B796B4 /* Build configuration list for PBXNativeTarget "Alamofire-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AED10F57FC126578F192E53D08E6A3B /* Debug */,
+				10FA6AD677D9AA0CB9B8A31F9E75E93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA823DDB8C0A98CD32228866419BF83 /* Build configuration list for PBXNativeTarget "AlamofireImage-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA054786FCD0DF1E4EE69A6DB3E6E2E1 /* Debug */,
+				2793E0308222A85E0C5A9AB052E1D297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D23968C286B0F5BFC88D1B45A7C0F23 /* Debug */,
+				2BFE00184B2702697467C14A35D2F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43E243D7C57F9C14C06A050A17E2901 /* Build configuration list for PBXNativeTarget "Alamofire-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0AD644CE6F4E1C42150A693EC3401C /* Debug */,
+				4288CEE0D7C42DC5302D66DC53CF665D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78FC75F73343B25E9EFB9E8FF9C7400 /* Build configuration list for PBXNativeTarget "AlamofireImage-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05AAB9E32CCEB2EFAF2FA527B02A94E /* Debug */,
+				48E7B68038D5A75165C082EB13AC43BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FEABB7877054D9D4EA4C31E3440239 /* Build configuration list for PBXNativeTarget "Pods-SwiftMiaTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123133A98F8C03EBEFD1F1D95551100D /* Debug */,
+				1ED0B8B05391A00B03ABC98768A9F1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E7823FD966C601127C8E4A2C6DBA2E /* Build configuration list for PBXNativeTarget "Pods-SwiftMiaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26143421F4D3B85E1DA4AF4B7E55C455 /* Debug */,
+				8BAE0C416841B20E4870B92B5516EA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
