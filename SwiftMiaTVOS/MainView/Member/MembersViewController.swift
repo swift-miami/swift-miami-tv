@@ -11,7 +11,7 @@ import UIKit
 class MembersViewController: UIViewController, UISearchResultsUpdating, UITableViewDelegate, UITableViewDataSource  {
 
     
-    
+    let store = SMStore.shared
     var assitants : [String]!
     var filterAssist : [String]!
     @IBOutlet weak var tableView: UITableView!
@@ -40,7 +40,8 @@ class MembersViewController: UIViewController, UISearchResultsUpdating, UITableV
         filterAssist = assitants
         tableView.delegate = self
         tableView.dataSource = self
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = store.indexGray
+        tableView.backgroundColor = store.indexGray
     }
     
 
@@ -60,6 +61,9 @@ class MembersViewController: UIViewController, UISearchResultsUpdating, UITableV
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = filterAssist[indexPath.row].capitalized
+        cell.textLabel?.textColor = store.lightGray
+        cell.backgroundColor = store.indexGray
+        
         return cell
     }
 

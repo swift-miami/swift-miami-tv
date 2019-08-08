@@ -16,6 +16,8 @@ class SMStore {
 
     var sourceVideos = [Video]()
     
+    var shouldSetTVBehavior = true
+    
     //Colors :
     let lightBlue = UIColor(red:0.35, green:0.63, blue:0.94, alpha:1.0)
     let titleBlue = UIColor(red:0.46, green:0.72, blue:0.84, alpha:1.0)

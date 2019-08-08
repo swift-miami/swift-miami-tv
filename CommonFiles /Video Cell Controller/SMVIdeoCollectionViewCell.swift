@@ -16,7 +16,7 @@ class SMVIdeoCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var videoImage: UIImageView!
     @IBOutlet weak var view: UIView!
-    
+    let store = SMStore.shared
     var delegate : VideoCollectionViewCellDelegate?
     var myVideo : Video!
     
@@ -25,12 +25,17 @@ class SMVIdeoCollectionViewCell: UICollectionViewCell {
         //Called immediately after the system updates the focus to a new view. here we can control what to do when a gains or looses focus
         
         if self.isFocused {
-            showFocus()
-            //Tell the delegate the Cell is focused
-            delegate?.updateInfo(myVideo)
             
+            //Tell the delegate the Cell is focused
+            if store.shouldSetTVBehavior {
+                delegate?.updateInfo(myVideo)
+                showFocus()
+            }
         } else {
-            removeFocus()
+            if store.shouldSetTVBehavior {
+                removeFocus()
+            }
+            
         }
     }
     

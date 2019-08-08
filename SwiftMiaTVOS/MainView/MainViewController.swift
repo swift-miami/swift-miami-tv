@@ -41,7 +41,10 @@ class MainViewController: UIViewController, VideoCollectionViewCellDelegate {
         prepareViews()
         prepareSegmentControl()
         prepareCollectionView()
-        prepareFocusGuide()
+        if store.shouldSetTVBehavior {
+            prepareFocusGuide()
+        }
+        
     }
     
     @objc func updateVideos(_ sender : UISegmentedControl) {
