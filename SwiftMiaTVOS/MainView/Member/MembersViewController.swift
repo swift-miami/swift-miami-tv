@@ -46,12 +46,9 @@ class MembersViewController: UIViewController, UISearchResultsUpdating, UITableV
 
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text else { return }
-        print(text)
         if text.count >= 3 {
-            
             filterAssist = assitants.filter({$0.uppercased().contains("\(text)")})
             tableView.reloadData()
-            print(filterAssist)
         }
 
     }
