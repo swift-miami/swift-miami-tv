@@ -27,6 +27,12 @@ class MainViewController: UIViewController, VideoCollectionViewCellDelegate {
     
     
     override var preferredFocusEnvironments: [UIFocusEnvironment] {
+        guard let section = self.section else {
+            return [videosCollection]
+        }
+        if section == .meetup {
+            return [typeSwitcher]
+        }
         return [videosCollection]
     }
     

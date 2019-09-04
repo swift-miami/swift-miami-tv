@@ -78,6 +78,8 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KH-EE-Sn0" customClass="SMButton" customModule="SwiftMiaTVOS" customModuleProvider="target">
                     <rect key="frame" x="1500" y="65" width="242" height="86"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.81960784310000001" green="0.035294117649999998" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.024581145499999998" green="0.90605384109999998" blue="0.87436586620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                     <state key="normal" title="Members"/>
                 </button>

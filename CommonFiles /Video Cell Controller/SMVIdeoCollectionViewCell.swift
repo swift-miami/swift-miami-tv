@@ -50,17 +50,20 @@ class SMVIdeoCollectionViewCell: UICollectionViewCell {
     
     func showFocus() {
         self.view.layer.borderWidth = 5.0
+        videoImage.image = UIImage(named: "swiftMiaLogo")
         UIView.animate(withDuration: 0.3) {
             self.videoImage.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         }
+        //videoImage.clipsToBounds = false
         //videoImage.adjustsImageWhenAncestorFocused = true
     }
     
     func removeFocus() {
+        videoImage.image = UIImage(named: "swifty")
         self.view.layer.borderWidth = 0
         UIView.animate(withDuration: 0.3) {
             self.videoImage.transform = CGAffineTransform.identity
         }
-        //videoImage.adjustsImageWhenAncestorFocused = false
+        videoImage.adjustsImageWhenAncestorFocused = false
     }
 }
